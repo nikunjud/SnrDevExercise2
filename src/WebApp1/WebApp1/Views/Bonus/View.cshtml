@@ -8,8 +8,6 @@
 
 @using (Html.BeginForm( actionName: "Allocate", controllerName: "Bonus")) 
 {
-    @Html.AntiForgeryToken()
-    
     <div class="form-horizontal">
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
