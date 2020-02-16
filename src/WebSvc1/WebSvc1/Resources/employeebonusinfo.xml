@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employeebonusinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EmployeeNo>1665091577199</EmployeeNo>
+  <BonusAmount>100.0</BonusAmount>
+  <BonusDate>2020-02-16</BonusDate>
+</employeebonusinfo><?xml version="1.0" encoding="utf-8"?>
+<employeebonusinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EmployeeNo>1699081370999</EmployeeNo>
+  <BonusAmount>100.0</BonusAmount>
+  <BonusDate>2020-02-16</BonusDate>
+</employeebonusinfo>

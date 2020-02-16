@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Web.Http;
+using WebSvc1.App_Start;
 
 namespace WebSvc1
 {
@@ -22,6 +23,8 @@ namespace WebSvc1
             );
 
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
+            config.MessageHandlers.Add(new WebSvc1.App_Start.IPFilterHandler());
+            config.Filters.Add(new CustomExceptionFilter());
 
         }
     }
